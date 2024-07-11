@@ -1,8 +1,20 @@
 .grid-container {
+    background: #005B9E;
     display: grid;
-    grid-template-columns: 1fr;  /* Single column for mobile */
-    grid-gap: 10px;  /* Gap between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /* Auto-scaling columns */
+    /* grid-gap: 10px;  */
+    align-items: center;
   }
+
+.grid-container > img{
+  width: 10%;
+  height: auto;
+}
+
+.grid-container > header {
+  grid-column: 1 / -1;
+  background: #005B9E;
+}
 
   
   /* Adjust styles for larger screens (optional) */
@@ -15,7 +27,8 @@
 
   header, nav, main, footer {
     padding: 1rem;  /* Add padding to each section */
-    background-color: #f5f5f5;  /* Light background color for sections */
+    /* background-color: #f5f5f5;  */
+     /* Light background color for sections */
     text-align: center;  /* Center content within sections (optional) */
   }
   
