@@ -268,7 +268,7 @@ button.fs-continue,
 }
 
 .fs-fields input:focus {
-	background-color: #3b3f45; /* Fixes chrome bug with placeholder */
+	background-color: #ABC4E5; /* Fixes chrome bug with placeholder */
 }
 
 .fs-form-overview .fs-fields input:focus {
@@ -342,16 +342,19 @@ button.fs-continue,
 	transform: translate(-50%,-50%);
 }
 
-.fs-fields .fs-radio-group label.radio-mobile::after {
-	background-image: url(../img/mobile.svg);
+.fs-fields .fs-radio-group label.radio-sciBono::after {
+	background-image: url(../img/scibono.svg);
 }
 
-.fs-fields .fs-radio-group label.radio-social::after {
-	background-image: url(../img/social.svg);
+.fs-fields .fs-radio-group label.radio-soweto::after {
+	background-image: url(../img/SAAYC-White@4x.svg);
 }
 
-.fs-fields .fs-radio-group label.radio-conversion::after {
-	background-image: url(../img/conversion.svg);
+.fs-fields .fs-radio-group label.radio-etwatwa::after {
+	background-image: url(../img/SAAYC-White@4x.svg);
+}
+.fs-fields .fs-radio-group label.radio-jhb::after {
+	background-image: url(../img/johannesburg.svg);
 }
 
 .fs-fields .fs-radio-group label:hover::after,
