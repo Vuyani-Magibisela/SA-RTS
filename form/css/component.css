@@ -356,6 +356,29 @@ button.fs-continue,
 .fs-fields .fs-radio-group label.radio-jhb::after {
 	background-image: url(../img/johannesburg.svg);
 }
+/* Tshirt sizes */
+
+.fs-fields .fs-radio-group label.radio-youthSmall::after {
+	background-image: url(../img/scibono.svg);
+}
+
+.fs-fields .fs-radio-group label.radio-youthMedium::after {
+	background-image: url(../img/SAAYC-White@4x.svg);
+}
+
+.fs-fields .fs-radio-group label.radio-youthLarge::after {
+	background-image: url(../img/SAAYC-White@4x.svg);
+}
+.fs-fields .fs-radio-group label.radio-adultSmall::after {
+	background-image: url(../img/johannesburg.svg);
+}
+
+.fs-fields .fs-radio-group label.radio-adultMedium::after {
+	background-image: url(../img/SAAYC-White@4x.svg);
+}
+.fs-fields .fs-radio-group label.radio-adultLarge::after {
+	background-image: url(../img/johannesburg.svg);
+}
 
 .fs-fields .fs-radio-group label:hover::after,
 .fs-fields input[type="radio"]:focus + label::after,
@@ -370,6 +393,18 @@ button.fs-continue,
 .fs-form-overview .fs-fields input[type="radio"]:checked + label {
 	color: rgba(0,0,0,0.8);
 }
+
+
+/* Checkboxes */
+.fs-fields .fs-checkbox-group input[type="checkbox"] {
+	display: block;
+	margin: 0 0.5em 0 0;
+}
+.fs-fields .fs-checkbox-group label {
+	display: block;
+    margin-bottom: 5px;
+}
+
 
 .fs-fields textarea {
 	padding: 0.25em;
