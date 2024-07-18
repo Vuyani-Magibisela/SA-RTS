@@ -359,25 +359,25 @@ button.fs-continue,
 /* Tshirt sizes */
 
 .fs-fields .fs-radio-group label.radio-youthSmall::after {
-	background-image: url(../img/scibono.svg);
+	background-image: url(../img/Tshirt-youthSmall.svg);
 }
 
 .fs-fields .fs-radio-group label.radio-youthMedium::after {
-	background-image: url(../img/SAAYC-White@4x.svg);
+	background-image: url(../img/Tshirt-youthMedium.svg);
 }
 
 .fs-fields .fs-radio-group label.radio-youthLarge::after {
-	background-image: url(../img/SAAYC-White@4x.svg);
+	background-image: url(../img/Tshirt-youthLarge.svg);
 }
 .fs-fields .fs-radio-group label.radio-adultSmall::after {
-	background-image: url(../img/johannesburg.svg);
+	background-image: url(../img/Tshirt-adultSmall.svg);
 }
 
 .fs-fields .fs-radio-group label.radio-adultMedium::after {
-	background-image: url(../img/SAAYC-White@4x.svg);
+	background-image: url(../img/Tshirt-adultMedium.svg);
 }
 .fs-fields .fs-radio-group label.radio-adultLarge::after {
-	background-image: url(../img/johannesburg.svg);
+	background-image: url(../img/Tshirt-adultLarge.svg);
 }
 
 .fs-fields .fs-radio-group label:hover::after,
@@ -571,6 +571,7 @@ button.fs-continue,
 	font-size: 2em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	cursor: default;
+	padding-left: 20px;
 }
 
 .fs-numbers:after {
@@ -581,6 +582,7 @@ button.fs-continue,
 	font-weight: 300;
 	opacity: 0.4;
 	left: 0;
+	padding-left: 20px;
 }
 
 .fs-numbers span {

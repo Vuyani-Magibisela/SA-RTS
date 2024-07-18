@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 4000 4000" xml:space="preserve">
+<rect display="none" fill="#FFFFFF" width="4000" height="4000"/>
+<g>
+	
+		<path fill="none" stroke="#171717" stroke-width="66.9551" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M1153.5,2150.6l-398.9-240.8c-21.2-12.8-27.7-40.6-14.4-61.6l385.8-603.8c17.8-27.9,43.9-49.6,74.5-62.2l365.5-149.8
+		c53.9,171.5,214.1,295.9,403.3,295.9s349.5-124.4,403.3-295.9l365.5,149.8c30.7,12.6,56.7,34.3,74.5,62.2l385.8,603.8
+		c13.4,20.9,6.9,48.7-14.4,61.6l-398.9,240.8"/>
+	
+		<polyline fill="none" stroke="#171717" stroke-width="66.9551" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		1153.5,1755.3 1153.5,3504.6 1969.4,3504.6 2785.3,3504.6 2785.3,1755.3 	"/>
+</g>
+<text transform="matrix(1 0 0 1 1616.1399 2351.4106)" display="none" font-family="'BritannicBold'" font-size="284.2288px">Small</text>
+<text transform="matrix(1 0 0 1 1484.7084 2351.4104)" font-family="'BritannicBold'" font-size="284.2288px">Medium</text>
+<text transform="matrix(1 0 0 1 1618.5649 2351.4109)" display="none" font-family="'BritannicBold'" font-size="284.2288px">Large</text>
+<text transform="matrix(1 0 0 1 1615.2582 2094.4934)" font-family="'BritannicBold'" font-size="284.2288px">Youth</text>
+<text transform="matrix(1 0 0 1 1651.0559 2094.4932)" display="none" font-family="'BritannicBold'" font-size="284.2288px">Adult</text>
+</svg>
