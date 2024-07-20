@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const navMenu = document.getElementById('nav-menu');
         menuIcon.addEventListener('click', () => {
             navMenu.classList.toggle('active');
+            navMenu.style.width = "250px";
         });
+
     });
     
