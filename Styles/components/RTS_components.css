@@ -1,0 +1,231 @@
+
+:root {
+    --primary-color: #005B9E;
+    --secondary-color: #F39E0C;
+    --background-color: #ABC4E5;
+    --tertiary-color: #ABC8AB;
+    --text-color: #333;
+    --light-text-color: #fff;
+    --hover-color: #9747FF;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.6;
+}
+
+nav {
+        display: none;
+    }
+
+
+nav ul {
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav ul li a {
+    color: var(--light-text-color);
+    text-decoration: none;
+}
+
+nav ul .active {
+    background-color: var(--hover-color);
+    width: 100%;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    color: var(--light-text-color);
+}
+
+#nav-menu.active {
+        display: block;
+}
+
+/* Title Styling */
+#title{
+    background: var(--primary-color);
+    margin-top: 0 auto;
+}
+
+#title h1{
+    color: var(--secondary-color);
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 32px;
+    font-family: Inter;
+    letter-spacing: -2px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#header{
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.headertxt{
+    grid-column: 2/3;
+}
+
+.headertxt h1{
+    color: var(--secondary-color);
+    text-align: right;
+    vertical-align:text-top;
+    font-size:27px;
+    letter-spacing:-2px;
+    line-height: -2px;
+}
+
+.headertxt h2{
+   
+    color: var(--tertiary-color);
+    text-align: right;
+    vertical-align: text-top;
+    font-size: 15px;
+    font-weight: 300;
+}
+.headertxt h2 span{
+    font-weight: 600;
+    
+}
+
+.headertxt div button {
+    display: block;   
+
+}
+
+.headerImg{
+    grid-column: 1/2;
+}
+
+
+#header .headerImg img{
+    position: absolute;
+    top: 15rem;
+    left: 0.5rem;
+    height:148px;
+    width:245px;
+}
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        background-color: var(--background-color);
+    }
+    img{
+        width: 100%;
+    }
+
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+    img{
+        width: 80%;
+    }
+
+
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+    img{
+        width: 50%;
+    }
+    .menu-icon {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--light-text-color);
+}
+
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        background-color: green;
+    }
+    img{
+        width: 40%;
+    }
+
+    .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--light-text-color);
+}
+
+
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+    img{
+        width: 10%;
+    }
+
+    .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--light-text-color);
+    }
+
+    
+}
