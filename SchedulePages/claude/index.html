@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Summit Card</title>
+    <style>
+        .card {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .card-image {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .card-text h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .card-text h2 {
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+
+        .card-buttons {
+            display: flex;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .card-buttons button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .register-btn {
+            background-color: #fbbf24;
+            color: #1e3a8a;
+        }
+
+        .signin-btn {
+            background-color: #3b82f6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-content">
+            <svg class="card-image" viewBox="0 0 100 100">
+                <!-- Replace with your own SVG content -->
+                <circle cx="50" cy="50" r="40" fill="#fbbf24"/>
+                <rect x="30" y="30" width="40" height="20" fill="#3b82f6"/>
+            </svg>
+            <div class="card-text">
+                <h1>Teen Summit</h1>
+                <h2>Virtual Renaissance: Building Our Future</h2>
+            </div>
+        </div>
+        <div class="card-buttons">
+            <button class="register-btn">Register</button>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </div>
+</body>
+</html>
