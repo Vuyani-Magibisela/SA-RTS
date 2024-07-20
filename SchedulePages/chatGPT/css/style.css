@@ -1,0 +1,182 @@
+/* styles.css */
+
+:root {
+    --primary-color: #005B9E;
+    --secondary-color: #F39E0C;
+    --background-color: #ABC4E5;
+    --text-color: #333;
+    --light-text-color: #fff;
+    --hover-color: #9747FF;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.6;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--light-text-color);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--light-text-color);
+}
+
+nav {
+    background: var(--secondary-color);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--light-text-color);
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    background: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 0.5rem;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.session {
+    background: var(--background-color);
+    border-left: 5px solid var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.session:hover {
+    background: var(--primary-color);
+    color: var(--light-text-color);
+}
+
+.session time {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.session .details h3 {
+    margin: 0;
+}
+
+footer {
+    background: var(--secondary-color);
+    color: var(--light-text-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (min-width: 600px) {
+    .schedule {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .schedule {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Additional features */
+.search-container {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#search {
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 400px;
+}
+
+.save-session, .share-session {
+    margin-top: 0.5rem;
+    background: var(--primary-color);
+    color: var(--light-text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.save-session:hover, .share-session:hover {
+    background: var(--hover-color);
+}
+
+/* Collapsible sessions for mobile */
+@media (max-width: 599px) {
+    .session .details {
+        display: none;
+    }
+
+    .session.active .details {
+        display: block;
+    }
+}
+
+/* Hide navigation and show menu icon on smaller screens */
+@media (max-width: 599px) {
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #nav-menu.active {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
